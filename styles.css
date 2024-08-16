@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    text-align: center;
+    margin: 0;
+
+}
+
+#imagem {
+    width: 592px;
+
+    margin: 0 auto 72px;
+    /*
+    É a mesma coisa que o de cima. 
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 72px;
+    margin-left: auto; */      
+}
+
+/* Quando colocamos o img dentro do #imagem, alteramos somente a imagem dentro dessa div*/
+#imagem img {
+    margin-bottom: 0;
+
+}
+
+h1 {
+    font-family: 'Inter' sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+}
+
+/* irá alterar o span que estra dentro somente da H1*/
+h1 span {
+    color: #0075FF;
+    font-weight: bold;
+}
+
+/* a vírgula faz agregação entre os dois*/
+span, a {
+    color: #0075FF;
+}
+
+p, #footer {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/* irá selecionar o segundo elemento dentro do footer*/
+#footer a + a {
+    margin-left: 28px;
+
+}
+
+/*Para pegar uma classe*/
+.line {
+    width: 568px;
+    height: 0;
+    margin: 0 auto 8px;
+
+    border: 1px solid #ECEFE2;
+}

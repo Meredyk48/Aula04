@@ -1,10 +1,10 @@
-# Aula04
+># Aula04
 
 ## clonar o repositório
-- git clone <URL>
+- git clone inserir a URL
   
 ## adicionar arquivos para envio
-- git add <arquivo>
+- git add .
 
 ## comentar arquivo
 - git commit -m 'comentário do arquivo'
